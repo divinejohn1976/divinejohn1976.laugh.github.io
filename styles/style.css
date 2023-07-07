@@ -13,9 +13,22 @@ body {
 	height: 100vh;
 }
 
+header {
+	text-align: center;
+}
+
 .search_box {
 	margin-top: 0.5rem;
 	margin-left: 0.5rem;
+	color: #000;
+	background-color: #999;
+	padding: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	outline: none;
+	border: 2px solid lightgrey;
+	border-top-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	width: 60%;
 }
 
 footer {
