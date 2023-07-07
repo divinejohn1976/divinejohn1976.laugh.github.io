@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #333;
+	height: 100vh;
+}
+
+.search_box {
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p {
+	color: white;
+}
+
+.error {
+	color: #ff1010;
+}
+
+li {
+	color: white;
+	padding: 10px;
+	line-height: 4ch;
+}
+
+.jokes {
+	max-height: 80vh;
+	overflow-y: scroll;
+}
+
+.jokes ul li:nth-child(odd) {
+	background-color: #777;
+}
+
+.jokes ul li:nth-child(even) {
+	background-color: #222;
+}
+
+/* Track */
+::-webkit-scrollbar {
+	width: 10px; /* width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #000; /* color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #555; /* color of the handle */
+	border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #333; /* color of the handle on hover */
+}
